@@ -1,0 +1,66 @@
+.rightrm {
+  background-color: #006751;
+ 
+}
+#info {
+  color: white;
+  font-weight: bold;
+}
+#min {
+  color: white;
+}
+#form {
+  color: white;
+}
+#main {
+  color: white;
+}
+#cheak {
+  color: white;
+}
+.limg {
+  max-height: 400px;
+  position: relative;
+}
+
+.text-l-content {
+  position: absolute;
+  bottom: 10%;
+  color: white;
+  padding-left: 79px;
+}
+.leftdiv {
+  height: 700px;
+  background-image: url("pic.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.rightrm {
+  padding: 40px;
+  height: 700px;
+}
+.btnjoinus:hover {
+  background-color: #b6b6b6;
+}
+.text-l-content h3,
+.text-l-content h5 {
+  font-weight: 700;
+}
+.btn-green {
+  background-color: green;
+  color: black;
+  margin-right: 2px;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 10px;
+}
+.error {
+  display: none;
+}
+.sucessinfo {
+  display: none;
+}
+.checkbox{
+  color: white;
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>jeet kubde task assign</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 leftdiv">
+          <div class="text-l-content">
+            <h4>WELCOME TO OUR TEAM</h4>
+            <h2>MY NAME IS JEET</h2>
+            <button class="btn btn-danger btnjoinus">JOIN WITH ME</button>
+          </div>
+        </div>
+        
+        <div class="col-md-4 rightrm">
+          <h3 class="right-t" id="info">FILL THE FORM</h3>
+          <p id="min">
+            Complete the form below for detailed team information and to be
+            contacted by phone and email.
+          </p>
+          <div
+            class="alert alert-success alert-dismissible sucessinfo suces-area"
+          >
+            <a href="#" class="close" data-dismiss="alert" aria-label="close"
+              >&times;</a
+            >
+            <p class="suces-area-text">.</p>
+          </div>
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="sel1" id="main">SELECT A TEAM </label>
+              <select class="form-control" id="sel1" placeholder="Select Team">
+                <option value="">Select Team</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <div
+              class="alert alert-danger alert-dismissible error err-sel1-area"
+            >
+              <a href="#" class="close" data-dismiss="alert" aria-label="close"
+                >&times;</a
+              >
+              <p class="err-sel1-text">
+                This alert box could indicate a dangerous or potentially
+                negative action.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="fname" id="form">FIRST NAME</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                    id="fname"
+                  />
+                </div>
+                <div
+                  class="alert alert-danger alert-dismissible error err-fname-area"
+                >
+                  <a
+                    href="#"
+                    class="close"
+                    data-dismiss="alert"
+                    aria-label="close"
+                    >&times;</a
+                  >
+                  <p class="err-fname-text">Please select the Last Name</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="lname" id="form">LAST NAME</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                    id="lname"
+                  />
+                </div>
+                <div
+                  class="alert alert-danger alert-dismissible error err-lname-area"
+                >
+                  <a
+                    href="#"
+                    class="close"
+                    data-dismiss="alert"
+                    aria-label="close"
+                    >&times;</a
+                  >
+                  <p class="err-lname-text">Please select the Last Name</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="fname" id="form">EMAIL</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Name"
+                    id="email"
+                  />
+                </div>
+                <div
+                  class="alert alert-danger alert-dismissible error err-email-area"
+                >
+                  <a
+                    href="#"
+                    class="close"
+                    data-dismiss="alert"
+                    aria-label="close"
+                    >&times;</a
+                  >
+                  <p class="err-email-text">Please select the email</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="phone" id="form">PHONE NUMBER</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Phone number"
+                    id="phone"
+                  />
+                </div>
+                <div
+                  class="alert alert-danger alert-dismissible error err-phone-area"
+                >
+                  <a
+                    href="#"
+                    class="close"
+                    data-dismiss="alert"
+                    aria-label="close"
+                    >&times;</a
+                  >
+                  <p class="err-phone-text">Please select the phone</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="checkbox">
+              <label
+                ><input type="checkbox" />Yes I would like to receive
+                communications by call/email Jeet kubde services</label
+              >
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <button
+                  type="button"
+                  class="btn btn-default btn-green btnlogin"
+                >
+                  Submit</button
+                ><button
+                  type="button"
+                  class="btn btn-default btn-green btn-reset ml-4"
+                >
+                  Reset
+                </button>
+              </div>
+              <div class="col-md-12"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    src =
+      "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js";
+    integrity =
+      "sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==";
+    crossorigin = "anonymous";
+    referrerpolicy =
+      "no-referrer" >
+      $(document).ready(function () {
+        $(".error").hide();
+        $(".btnlogin").click(function () {
+          $(".error").hide();
+          let select1 = $("#sel1").val();
+          let fname = $("#fname").val();
+          let lname = $("#lname").val();
+          let email = $("#email").val();
+          let phone = $("#phone").val();
+          let error = 0;
+          if (select1 == "") {
+            $(".err-sel1-area").fadeIn();
+            $(".err-sel1-text").fadeIn();
+
+            $(".err-sel1-text").text("Please select the value");
+            error = 1;
+          }
+          if (fname == "") {
+            $(".err-fname-area").fadeIn();
+            $(".err-fname-text").fadeIn();
+
+            $(".err-fname-text").text("Please select the first name");
+            error = 1;
+          }
+          if (lname == "") {
+            $(".err-lname-area").fadeIn();
+            $(".err-lname-text").fadeIn();
+
+            $(".err-lanme-text").text("Please select the last name");
+            error = 1;
+          }
+          if (email == "") {
+            $(".err-email-area").fadeIn();
+            $(".err-email-text").fadeIn();
+
+            $(".err-email-text").text("Please select the email");
+            error = 1;
+          }
+          if (phone == "") {
+            $(".err-phone-area").fadeIn();
+            $(".err-phone-text").fadeIn();
+
+            $(".err-phone-text").text("Please select the phone");
+            error = 1;
+          }
+
+          if (error == 0) {
+            $(".suces-area").fadeIn();
+            $(".suces-area-text").text("submited");
+            $(".suces-area-text").fadeIn();
+            let encryptemail = CryptoJS.MD5(email);
+            window.sessionStorage.setItem("emails", encryptemail);
+            localStorage.emails = encryptemail;
+            const d = new Date();
+            let exdays = 1;
+            d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+            let expires = "expires=" + d.toUTCString();
+            document.cookie =
+              "emails=" + encryptemail + ";" + expires + ";path=/";
+          }
+        });
+        $(".btn-reset").click(function () {
+          $("#sel1").val("");
+          $("#fname").val("");
+          $("#lname").val("");
+          $("#email").val("");
+          $("#phone").val("");
+        });
+        $(".btnjoinus")
+          .mouseenter(function () {
+            $(this).text("Enroll Now");
+          })
+          .mouseleave(function () {
+            $(this).text("JOIN WITH US");
+          });
+      });
+  </script>
+</html>
